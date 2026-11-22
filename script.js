@@ -40,7 +40,6 @@ const provider = new GoogleAuthProvider();
 const belepesBtn = document.getElementById("belepesBtn");
 const felhasznaloNev = document.getElementById("felhasznaloNev");
 
-alert("A JavaScript betöltődött!");
 // Google-belépés
 belepesBtn.addEventListener("click", async function() {
     try {
